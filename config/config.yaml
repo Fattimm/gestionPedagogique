@@ -1,0 +1,43 @@
+routes:
+  - method: GET
+    path: /Connexion
+    controller: ConnexionController
+    action: showLoginForm
+
+  - method: POST
+    path: /Connexion
+    controller: ConnexionController
+    action: login
+
+  - method: GET
+    path: /ListeCours
+    controller: ListeCoursController
+    action: index
+
+  - method: GET
+    path: /ListeSessionsCours
+    controller: ListeSessionsCoursController
+    action: index
+
+  - method: POST
+    path: /AnnulerSession
+    controller: AnnulerSessionController
+    action: annulerSession
+
+  - method: GET
+    path: /logout
+    controller: ConnexionController
+    action: logout
+
+  - method: GET
+    path: /ListeCoursEtudiant
+    controller: ListeCoursEtudiantController
+    action: index
+
+  - method: GET
+    path: /ListeSessionsCoursEtudiant
+    controller: ListeSessionsCoursEtudiantController
+    action: index
+
+
+

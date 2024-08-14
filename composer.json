@@ -1,0 +1,28 @@
+{
+    "name": "fatoumata/gestion-pedagogique",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Src\\App\\": "src/app/",
+            "Src\\App\\Controller\\": "src/app/controller/",
+            "Src\\App\\Model\\": "src/app/model/",
+            "Src\\App\\Validator\\": "src/app/validator/",
+            "Src\\Core\\": "src/core/",
+            "Src\\Core\\Database\\": "src/core/database/",
+            "Src\\Core\\Model\\": "src/core/model/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Fattimm",
+            "email": "diamata998@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/yaml": "^6.4",
+        "pimple/pimple": "^3.5"
+    }
+}
